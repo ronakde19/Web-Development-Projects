@@ -6,7 +6,4 @@ I just created my first project in my Web Development Journey. It is a skeleton 
 - H1-H3 and pre and paragraphs tags are used
 - Image tag also added with specific height.
 
-<a href="./blog.html" target="_blank">
-
-  <button>Open Project</button>
-</a>
+Open Project :- blog.html
