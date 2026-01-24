@@ -6,4 +6,4 @@ I just created my first project in my Web Development Journey. It is a skeleton 
 - H1-H3 and pre and paragraphs tags are used
 - Image tag also added with specific height.
 
-Open Project :- [blog.html](./pages/Blog.html)
+Open Project :- [blog.html](./Blog.html)
