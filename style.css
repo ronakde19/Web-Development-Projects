@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 40px;
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+}
+nav{
+    background-color: rgb(227, 220, 220);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+#side {
+    position: relative;
+    width: 200px;
+    background-color: rgb(227, 220, 220);
+    padding: 20px;
+    
+}
+
+.content {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.divide {
+    border: 2px;
+    border-style: dotted;
+    border-color: aqua;
+}
+
+#container {
+    display: flex;
+}
+
+#main {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#main-text {
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.photo {
+    display: inline-flex;
+    height:450px;
+    width: 350px;
+    background-color: aqua;
+    background-size: cover;
+}
+
+#album {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+#image1 {
+    background-image: url(https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlfGVufDB8fDB8fHww);
+}
+
+#image2 {
+    background-image: url(https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlfGVufDB8fDB8fHww);
+}
+
+#image3{
+    background-image: url(https://plus.unsplash.com/premium_photo-1674327105076-36c4419864cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D);
+}
+
+#para {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#list {
+    margin-left: 40px;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+#final {
+    width: 100%;
+}
